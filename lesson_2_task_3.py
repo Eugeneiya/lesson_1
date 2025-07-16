@@ -5,5 +5,5 @@ def square(side):
     return math.ceil(side * side)
 
 
-num_side = int(input("Введите длину стороны: "))
+num_side = float(input("Введите длину стороны: "))
 print(f"Площадь квадрата = {square(num_side)}")
